@@ -7,6 +7,7 @@ def load_library(file_path)
       empty_hash_2 = {}
       empty_hash_2.store(:english, pairs[0])
       empty_hash_2.store(:japanese, pairs[1])
+      return empty_hash_2
     end
   return emoticons
 end
