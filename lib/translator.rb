@@ -5,6 +5,9 @@ def load_library(file_path)
   emoticons = YAML.load_file("./lib/emoticons.yml")
   p emoticons
     emoticons.each do |key, pairs|
+      empty_hash_2 = {}
+      empty_hash_2.store(:english, pairs[0])
+      empty_hash_2.store(:japanese, pairs[1])
   return emoticons
 end
 
