@@ -9,7 +9,7 @@ def load_library(file_path)
       empty_hash_2.store(:japanese, pairs[1])
       empty_hash.store(key, empty_hash_2)
     end
-  return emoticons
+  return empty_hash
 end
 
 #def get_japanese_emoticon(file_path, emoticon)
